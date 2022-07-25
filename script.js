@@ -5,7 +5,8 @@ let computerWins = 0;
 
 const rock = document.getElementById('rock');
 const paper = document.getElementById('paper');
-const scissors = document.getElementById('scissor');
+const scissors = document.getElementById('scissors');
+const restart = document.getElementById('restart_button');
 
 const buttons = [rock, paper, scissors];
 
@@ -19,6 +20,9 @@ buttons.forEach(button => {
       )
     }
 )
+restart.addEventListener('click', () => {
+    window.location.reload();
+})
 
 function getComputerChoice(){
     var randomNumber = Math.floor(Math.random() * 3);
