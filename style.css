@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    background-color: #fdf1f1;
+}
+h1{
+    font-family: 'Cormorant SC', serif;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.title{
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.container_button{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 60px;
+}
+.container_button button{
+    border-radius: 15px;
+    border: 3px solid #343534;
+    box-shadow: 3px 10px 5px #343534;
+}
+.container_button button:active{
+    box-shadow: 3px 3px 5px #343534;
+    transform: translateY(7px);
+    
+}
+.container_button img{
+    width: 200px;
+    margin: 0cm;
+}
+.container_score{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 35px;
+}
+.choices{
+    margin-top: 5px;
+    margin-bottom: 0%; 
+}
+#score{
+    font-size: 50px;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.container_restart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 60px;
+}
+#restart_button{
+    border-radius: 15px;
+    border: 3px solid #343534;
+    box-shadow: 3px 5px 5px #343534;
+    font-size: 20px;
+    padding: 10px;
+}
+#restart_button:active{
+    box-shadow: 3px 2px 5px #343534;
+    transform: translateY(3px);
+    
+}
+.footer{
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
