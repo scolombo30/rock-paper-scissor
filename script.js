@@ -15,8 +15,11 @@ buttons.forEach(button => {
         playerChoice = button.id;
         computerChoice = getComputerChoice();
         singleRound(playerChoice,computerChoice);
-        updateScore();
+        if (!(playerWins > 5 || computerWins > 5)) {
+            updateScore();
         }
+        else {alert('Game finished!/nPress restart for another game');}
+    }
       )
     }
 )
