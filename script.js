@@ -18,7 +18,7 @@ buttons.forEach(button => {
         if (!(playerWins > 5 || computerWins > 5)) {
             updateScore();
         }
-        else {alert('Game finished!/nPress restart for another game');}
+        else {alert('Game finished! Press restart for another game');}
     }
       )
     }
